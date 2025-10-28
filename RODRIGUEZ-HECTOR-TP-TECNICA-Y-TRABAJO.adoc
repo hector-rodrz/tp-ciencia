@@ -30,12 +30,20 @@ de instalación de ascensores, y toda la logística que lleva tener que ir al lu
 de la instalación, analizar, comprar los elementos necesarios, y transportarlos
 al sitio.
 
-// TODO: ? no se como abrir esta oración.
-// Tambien dudo que esto esté redactado bien.
-En el lugar donde estoy yo, se que hay una división clara entre front-end y back-end.
-Además, hay otro tipo de división técnica.  Mariano es de RRHH, y Mauro es programador
-full stack.  Se necesita una especialización en el ámbito de la programación y computación
-en general.  Pero hay tecnologías donde basta una capacitación, como en el caso del frontend.
+En mi ámbito de la pasantía, ademas, hay una división de especialización entre front-end
+y back-end.  Yo hago ambos, pero mis otros compañeros que están en la misma pasantía
+hacen más front-end.  Para estas dos especializaciones, se necesita conocimiento sobre
+la computación, aunque hay ámbitos donde con una capacitación es suficiente, por ejemlo:
+en el caso de frameworks y librerías para el front-end, hay muchos cursos de capacitación,
+y no se necesita un título para utilizar dichas tecnologías.  En el caso del back-end, diría
+yo que el conocimiento sobre la computación es mucho más necesario.  Aquí, la capacitación
+sobre temas como manejo de base de servidores, bases de datos, y sobre seguridad es mucho
+más importante.
+
+Como dije antes, se necesita conocimiento sobre la computación para ambos cargos.  Siendo
+más específico, un titulo técnico o terciario sobre programación o computación es necesario
+para trabajar en estos roles.  Además, dependiendo del trabajo, se necesita capacitación
+adicional en temas aún más específicos que corresponden al carácter de la actividad realizada.
 
 == División social
 
@@ -76,6 +84,7 @@ Lorem ipsum
 * Las sesiones son tranquilas
 * Dan mucha libertad
 * Son muy abiertos y amables
+* Horario flexible
 
 == Organigrama
 
