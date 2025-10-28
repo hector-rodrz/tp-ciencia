@@ -1,0 +1,131 @@
+= Técnica y trabajo
+Hector Rodriguez
+:doctype: article
+:reproducible:
+:listing-caption: Listing
+:source-highlighter: rouge
+:toc:
+:toc-title: Índice
+:title-page:
+:pdf-page-size: A4
+:stem:
+:pagenums:
+
+== Introducción
+
+La pasantía se trata sobre Ascensores Liftschitz, una compañía familiar de ascensores fundada en 1984.
+A pesar de ser de ascensores, tienen una sección de desarrollo de software de forma freelance.
+
+Mis tutores son Mariano y Maruo.  Mariano sabe sobre tecnología, pero no tiene
+un rol de programación.  Tiene más un rol de gestión, y creo que es de recursos humanos.  Mauro,
+por otro lado, sí tiene un rol de programación.
+
+Mi rol dentro de la compañía es el de programador full stack; Hago trabajos tanto de front-end
+como de back-end.  Hago la pasantía de forma remota de lunes a viernes, de 9 a 13.
+
+== División técnica
+
+Es una compañía de ascensores, por lo que habrá gente especializada en el ámbito
+de instalación de ascensores, y toda la logística que lleva tener que ir al lugar
+de la instalación, analizar, comprar los elementos necesarios, y transportarlos
+al sitio.
+
+// TODO: ? no se como abrir esta oración.
+// Tambien dudo que esto esté redactado bien.
+En el lugar donde estoy yo, se que hay una división clara entre front-end y back-end.
+Además, hay otro tipo de división técnica.  Mariano es de RRHH, y Mauro es programador
+full stack.  Se necesita una especialización en el ámbito de la programación y computación
+en general.  Pero hay tecnologías donde basta una capacitación, como en el caso del frontend.
+
+== División social
+
+Lorem ipsum
+
+== Tecnologías
+
+Para el front-end de los proyectos, se utiliza HTML, CSS, y Javascript
+principalmente.  También se utilizan frameworks como Bootstrap, para
+embellecer las páginas web y hacer que sean responsivas, y librerías
+de javascript como jQuery, para facilitar la manipulación de elementos
+en la página web.  Otra librería que utilizan es React, esta la utilizan
+para crear interfaces con componentes reutilizables.  Se utilizan multiples
+navegadores web para confirmar que las páginas web se vean bien en distintos
+navegadores, principalmente se testea en Chrome, Firefox, y Microsofr Edge.
+
+Para el back-end de los proyectos, se utiliza C# y el framework .NET.
+El entorno de desarrollo integrado que utilizan para desarrollar el backend
+es Visual Studio.  El código compilado se sube a un servidor FTP, y el cliente
+FTP recomendado es FileZilla.  Este servidor con FTP utiliza la tecnología
+IIS de Microsoft.  Se utiliza ASP.NET como framework para desarrollo de
+servidores web. Se utiliza MySQL para las bases de datos.
+
+Para el control de código fuente, se utiliza git, y github como plataforma
+de hosteo.
+
+Lorem ipsum
+
+.Ideas
+* Framework .NET
+* Visual studio
+* SQL
+* HTML, CSS, JS, React
+
+== Cultura que promueve
+
+.Ideas
+* Las sesiones son tranquilas
+* Dan mucha libertad
+* Son muy abiertos y amables
+
+== Organigrama
+
+Lorem ipsum
+
+Como no tengo mucho contacto con el resto de la compañía, no se mucho
+de cómo esta estructurada.
+
+.Departamentos
+* Gerencia general
+* RRHH
+* Departamento de programación
+* Departamento de contablilidad
++
+_Recuerdo que me habían mencionado que una alumna de sexto del año pasado_
+_había hecho una pasantía de contadora aquí, así que deben tender un departamento_
+_de contabilidad._
+
+[graphviz, format=svg]
+----
+digraph {
+    graph [rankdir=TB splines=ortho]
+    node [shape=box]
+
+    raiz [label = "Gerencia general"]
+
+    dir1 [label = "Programación" ]
+    dir2 [label = "Recursos humanos"]
+    dir3 [label = "Contabilidad"]
+    dir4 [label = "Dto. de ascensores...?"]
+    dir5 [label = "Instalaciones" ]
+
+    dto1 [label = "Dto. de programación" ]
+    dto2 [label = "Dto. de logística" ]
+
+    p1 [label = "" height=0 width=0 penwidth=0 style=filled color=black]
+
+    raiz -> p1 [arrowhead="none"]
+
+    p1 -> {dir1 dir2 dir3 dir4 dir5};
+
+    dir1 -> dto1;
+    dir4 -> dto2;
+}
+----
+
+== Diagrama de procesos
+
+Lorem ipsum
+
+== Conclusión
+
+Lorem ipsum
