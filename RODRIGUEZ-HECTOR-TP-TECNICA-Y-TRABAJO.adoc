@@ -4,7 +4,16 @@ Hector Rodriguez
 :pdf-page-size: A4
 :title-page:
 :pagenums:
-:description: Hola
+
+== Quehacer
+
+- [x] Introducción
+- [-] Div. Tecnica
+- [x] Div. Social
+- [ ] Org. Soc. Cult.
+- [-] Organigrama
+- [ ] Diag. Procesos.
+- [ ] Conclusion ?
 
 == Introducción
 
@@ -18,34 +27,64 @@ por otro lado, sí tiene un rol de programación.
 Mi rol dentro de la compañía es el de programador full stack; Hago trabajos tanto de front-end
 como de back-end.  Hago la pasantía de forma remota de lunes a viernes, de 9 a 13.
 
-== División técnica
+== División técnica del trabajo
 
-.Notas
-* Para bien o para mal, hay algunos de estos puntos que son más de la división social.
+Hay una división de trabajo, en la forma de desarrolladores de front-end y back-end; Los desarrolladores
+de front-end se encargan de desarrollar páginas web, mientras que los desarrolladores de back-end se encargan
+de desarrollar el servidor que va a utilizar esta página.  Nuestros tutores actuan como project managers, siendo
+su trabajo el de coordinar a los pasantes, y darnos tareas a realizar.
 
-Es una compañía de ascensores, por lo que habrá gente especializada en el ámbito
-de instalación de ascensores, y toda la logística que lleva tener que ir al lugar
-de la instalación, analizar, comprar los elementos necesarios, y transportarlos
-al sitio.
+La empresa, además, cuenta con otras áreas con las que no soy del todo familiar; Todo lo que tiene que ver con
+la instalación de ascensores, la logística detras de esto, finanzas, recursos humanos, etc.  Pero ahí hay otra
+clara divisón de trabajo.
 
-En mi ámbito de la pasantía, ademas, hay una división de especialización entre front-end
-y back-end.  Yo hago ambos, pero mis otros compañeros que están en la misma pasantía
-hacen más front-end.  Para estas dos especializaciones, se necesita conocimiento sobre
-la computación, aunque hay ámbitos donde con una capacitación es suficiente, por ejemlo:
-en el caso de frameworks y librerías para el front-end, hay muchos cursos de capacitación,
-y no se necesita un título para utilizar dichas tecnologías.  En el caso del back-end, diría
-yo que el conocimiento sobre la computación es mucho más necesario.  Aquí, la capacitación
-sobre temas como manejo de base de servidores, bases de datos, y sobre seguridad es mucho
-más importante.
+== División social del trabajo
 
-Como dije antes, se necesita conocimiento sobre la computación para ambos cargos.  Siendo
+// TODO: Mejor redacción
+
+.Jerarquía
+Nuestros tutores son la máxima jerarquía con la que interactuamos, y ellos toman
+el rol de project managers.  Nos dan tareas a realizar, y hacemos un seguimiento
+semanal sobre el progreso de las tareas que nos dieron.
+
+.Roles y tareas
+Estas tareas que nos dan están divididas en dos ámbitos, front-end y back-end.
+En el fron-end, se realiza el diseño y desarrollo de páginas web, tomando
+en cuenta los requerimientos y consideraciones particulares de cada cliente.
+Por ejemplo, desarrollamos varias propuestas de páginas web para un estudio
+contable que no contaba con una, y en el diseño se tuvo que tomar en cuenta
+cosas como la tipografía, la paleta de colores, e imágenes apropiadas
+específicamente para un estudio contable.
+En el back-end, se realiza el desarrollo de los servidores que van a utilizar
+las páginas web, y se sube este a un servidor FTP para poder acceder a la
+página desarrollada desde el sitio web de la empresa.  Se encargan de programar
+endpoints del servidor con el que se comunica el front-end y el navegador.
+Por ejemplo, tuve que hacer un endpoint llamado algo como `enviarMail` en el
+servidor.  El font-end hacía un pedido de HTTP a este endpoint, enviando
+ciertos datos de un formulario en una de las páginas web, y el servidor
+utilizaba el protocolo SMTP para enviar los datos por mail.
+Además, aunque no me tocó hacerlo durante la pasantía, el back-end trabaja con
+bases de datos; Creándolas, gestionandolas, y conectándolas con el servidor.
+
+// TODO: Mejor redacción
+
+.Especialización
+Hay una división de especialización entre front-end y back-end.  Para estas
+dos especializaciones, se necesita conocimiento sobre la computación, aunque hay
+ámbitos donde con una capacitación es suficiente, por ejemplo: en el caso de
+frameworks y librerías para el front-end, hay muchos cursos de capacitación, y no se
+necesita un título para utilizar dichas tecnologías.  En el caso del back-end, diría
+yo que el conocimiento sobre la computación es mucho más necesario.  Aquí, la
+capacitación sobre temas como manejo de base de servidores, bases de datos, y sobre
+seguridad es mucho más importante.
+
+Aun así, se necesita conocimiento sobre la computación para ambos cargos.  Siendo
 más específico, un titulo técnico o terciario sobre programación o computación es necesario
 para trabajar en estos roles.  Además, dependiendo del trabajo, se necesita capacitación
 adicional en temas aún más específicos que corresponden al carácter de la actividad realizada.
 
-== División social
-
-Lorem ipsum
+.Roles de género
+En cuanto a roles de género, el equipo desarrollo de la empresa parece tener más hombres.
 
 .Notas
 * Jerarquia
@@ -80,7 +119,13 @@ de hosteo.
 * SQL
 * HTML, CSS, JS, React
 
-== Cultura que promueve
+== Organización social y cultural
+
+La empresa promueve la comunicación y el trabajo en equipo. [...], promueve libertades
+individuales, como la flexibilidad del horario laboral, y [...](no vigilan tanto).
+
+[...] en el entorno laboral, se promueve mucho la colaboración y ayuda entre pasantes.  Además, se utilizan
+herramientas de desarrollo colaborativo, como git.
 
 .Ideas
 * Las sesiones son tranquilas
@@ -108,8 +153,6 @@ _de contabilidad._
 graphviz::organigrama.dot[format=svg]
 
 == Diagrama de procesos
-
-Lorem ipsum
 
 graphviz::procesos.dot[format=svg]
 
