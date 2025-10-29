@@ -105,91 +105,13 @@ _Recuerdo que me habían mencionado que una alumna de sexto del año pasado_
 _había hecho una pasantía de contadora aquí, así que deben tender un departamento_
 _de contabilidad._
 
-[graphviz, format=svg]
-----
-digraph {
-    graph [rankdir=TB splines=ortho]
-    node [shape=box]
-
-    raiz [label = "Gerencia general"]
-
-    dir1 [label = "Programación" ]
-    dir2 [label = "Recursos humanos"]
-    dir3 [label = "Contabilidad"]
-    dir4 [label = "Dto. de ascensores...?"]
-    dir5 [label = "Instalaciones" ]
-
-    dto1 [label = "Dto. de programación" ]
-    dto2 [label = "Dto. de logística" ]
-
-    p1 [label = "" height=0 width=0 penwidth=0 style=filled color=black]
-
-    raiz -> p1 [arrowhead="none"]
-
-    p1 -> {dir1 dir2 dir3 dir4 dir5};
-
-    dir1 -> dto1;
-    dir4 -> dto2;
-}
-----
+graphviz::organigrama.dot[format=svg]
 
 == Diagrama de procesos
 
 Lorem ipsum
 
-[graphviz, format=svg]
-----
-digraph G {
-  node [fontname = "Handlee"];
-  edge [fontname = "Handlee"];
-
-  splines=false;
-  
-  draw [
-    label = "Draw a picture";
-    shape = rect;
-  ];
-  win [
-    label = "You win!";
-    shape = oval;
-  ];
-  guess [
-    label = "Did they\nguess it?";
-    shape = diamond;
-  ];
-  point [
-    label = "Point repeatedly\nto the same picture.";
-    shape = rect;
-  ];
-
-  draw -> guess;
-  win -> guess [ label = "Yes"; dir=back ];
-  guess -> point [ label = "No" ];
-
-  {
-    rank=same;
-    guess; point; win;
-  }
-  
-  {
-    rank=same;
-    guess2; point2; 
-  }
-  
-  guess2 [
-      label = "                     ";
-      color= white ;
-  ];
-  point2 [
-      label = "                       ";
-      color=white;
-  ];
-  
-  point:s -> point2:n [ arrowhead = none ];
-  guess2:n -> point2:n [ arrowhead = none ];
-  guess2:n -> guess:s;
-}
-----
+graphviz::procesos.dot[format=svg]
 
 == Conclusión
 
