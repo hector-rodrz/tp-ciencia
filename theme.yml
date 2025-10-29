@@ -1,0 +1,13 @@
+extends: default
+
+header:
+  height: 0.75in
+  line_color: #505050
+  line_width: 0.5
+
+  recto:
+    left:
+      content: "Hector Rodriguez"
+  verso:
+    right:
+      content: "Hector Rodriguez"
